@@ -1,0 +1,29 @@
+# Created at 2023-11-19T04:55:04.428
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+# Created at 2023-11-19T04:55:37.620
+Unexpected IOException with stream: 2023-11-19 04:55:37.521  INFO 381 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+
+# Created at 2023-11-19T04:55:45.219
+Unexpected IOException with stream: 2023-11-19 04:55:45.125  INFO 381 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+
+# Created at 2023-11-19T04:55:45.820
+Unexpected IOException with stream: 2023-11-19 04:55:45.819  INFO 381 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/movie/src/main/resources/movies'
+
+
+# Created at 2023-11-19T04:55:55.430
+Unexpected IOException with stream: 2023-11-19 04:55:55.430  INFO 381 --- [           main] com.example.movie.SmokeTest              : Started SmokeTest in 89.001 seconds (JVM running for 121.011)
+
+
+# Created at 2023-11-19T04:55:55.919
+Unexpected IOException: 5,1,com.example.movie.SmokeTest,contextLoads,null,null,null
+
+
